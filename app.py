@@ -2,10 +2,7 @@ import numpy as np
 import tensorflow as tf
 import cv2
 from PIL import Image
-import matplotlib.pyplot as plt
-from flask import Flask, redirect, url_for, request, render_template
-from werkzeug.utils import secure_filename
-import os
+from flask import Flask, request, render_template
 import io
 
 # Define a flask app
